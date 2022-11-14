@@ -1,6 +1,8 @@
 """
 Nov 12 2022
 Leetcode: easy
+
+Valid Anagram - Leetcode 242 - Python
 https://www.youtube.com/watch?v=9UtInBqnCgA
 """
 

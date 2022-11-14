@@ -15,4 +15,6 @@ This is written in markdown. Read about markdown here: [markdowncheatsheet](http
 > am-eskandari
 
 ## Additional Comments:
-> n/a
+
+> ### Leetcode Easy Playlist:
+> https://www.youtube.com/playlist?list=PLot-Xpze53lfQmTEztbgdp8ALEoydvnRQ
