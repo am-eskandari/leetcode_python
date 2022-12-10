@@ -6,9 +6,6 @@ Two Sum - Leetcode 1 - HashMap - Python
 https://www.youtube.com/watch?v=KLlXCFG5TnA
 https://leetcode.com/problems/two-sum/
 """
-"""
-
-"""
 
 
 def two_sum(nums: list, target: int) -> list:
@@ -49,3 +46,11 @@ def two_sum(nums: list, target: int) -> list:
 
     # if no two numbers in nums add up to target, return empty list
     return []
+
+    already_checked = {}
+
+    for index, number in enumerate(nums):
+        difference = target - number
+        if difference in already_checked:
+            return [already_checked[difference], index]
+        already_checked[number] = index
