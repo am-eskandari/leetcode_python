@@ -4,6 +4,7 @@ Leetcode: easy
 
 Valid Anagram - Leetcode 242 - Python
 https://www.youtube.com/watch?v=9UtInBqnCgA
+https://leetcode.com/problems/valid-anagram/
 """
 
 
