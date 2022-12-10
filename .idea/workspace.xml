@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1a71c76-273a-47f2-b47a-6d77ceb3551b" name="Changes" comment="fix typo in anagram.py" />
+    <list default="true" id="e1a71c76-273a-47f2-b47a-6d77ceb3551b" name="Changes" comment="fix typo in anagram.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode01_twosum/twosum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode01_twosum/twosum.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/datpe/Documents/BCIT Repos/COMP 1510/lab-09-am-eskandari",
+    "last_opened_file_path": "C:/Users/datpe/OneDrive/Document - Windows 8 Help/Coding Repository/Personal Projects/leetcode_python",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,7 +49,29 @@
       <recent name="C:\Users\datpe\Documents\Coding Repository\Personal Projects\leetcode_python\anagram" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Doctest anagram">
+  <component name="RunManager" selected="Python.anagram">
+    <configuration name="anagram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode242_validanagram" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode242_validanagram/anagram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Doctest anagram" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="leetcode_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,19 +91,23 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for leetcode242_validanagram.test_anagram.AnagramTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in anagram" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="leetcode_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode242_validanagram" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;leetcode242_validanagram.test_anagram.AnagramTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode242_validanagram/anagram.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for leetcode242_validanagram.test_anagram.AnagramTest.test_anagram_false" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -93,21 +122,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;leetcode242_validanagram.test_anagram.AnagramTest.test_anagram_false&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for leetcode242_validanagram.test_anagram.AnagramTest.test_anagram_single_letter" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;leetcode242_validanagram.test_anagram.AnagramTest.test_anagram_single_letter&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -128,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.anagram" />
+        <item itemvalue="Python tests.Doctests in anagram" />
         <item itemvalue="Python tests.Doctest anagram" />
         <item itemvalue="Python tests.Python tests for test_anagram.AnagramTest.test_anagram_single_letter" />
         <item itemvalue="Python tests.Python tests for leetcode242_validanagram.test_anagram.AnagramTest.test_anagram_false" />
-        <item itemvalue="Python tests.Python tests for leetcode242_validanagram.test_anagram.AnagramTest" />
-        <item itemvalue="Python tests.Python tests for leetcode242_validanagram.test_anagram.AnagramTest.test_anagram_single_letter" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +161,7 @@
       <workItem from="1668269242379" duration="4160000" />
       <workItem from="1668280010207" duration="3300000" />
       <workItem from="1668969930981" duration="991000" />
+      <workItem from="1670690070250" duration="3410000" />
     </task>
     <task id="LOCAL-00001" summary="create anagram function, docstring, doctest and unit test">
       <created>1668272660979</created>
@@ -186,7 +201,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode_python$.coverage" NAME=" Coverage Results" MODIFIED="1668272611881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode242_validanagram" />
-    <SUITE FILE_PATH="coverage/leetcode_python$Doctest_anagram.coverage" NAME="Doctest anagram Coverage Results" MODIFIED="1668272752762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode242_validanagram" />
-    <SUITE FILE_PATH="coverage/leetcode_python$anagram.coverage" NAME="anagram Coverage Results" MODIFIED="1668272100112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode_python$Doctest_anagram.coverage" NAME="Doctest anagram Coverage Results" MODIFIED="1670690089764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode242_validanagram" />
+    <SUITE FILE_PATH="coverage/leetcode_python$Doctests_in_anagram.coverage" NAME="Doctests in anagram Coverage Results" MODIFIED="1670690095758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode242_validanagram" />
+    <SUITE FILE_PATH="coverage/leetcode_python$anagram.coverage" NAME="anagram Coverage Results" MODIFIED="1670690099411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode242_validanagram" />
   </component>
 </project>
