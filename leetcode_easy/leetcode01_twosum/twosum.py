@@ -8,16 +8,16 @@ https://leetcode.com/problems/two-sum/
 """
 
 
-def two_sum(nums: list, target: int) -> list:
+def two_sum(nums: list, target: int):
     """
     Given an array of integers nums and an integer target, return indices of the two numbers
     such that they add up to target.
 
     Each input would have exactly one solution, and same element will not be used twice.
 
-    :param nums: list of integers
+    :param nums: list of integers of minimum length 2
     :param target: integer
-    :precondition: nums is a list of integers
+    :precondition: nums is a list of integers of minimum length 2
     :precondition: target is an integer
     :postcondition: return indices of the two numbers such that they add up to target
     :return: list of indices
@@ -28,29 +28,29 @@ def two_sum(nums: list, target: int) -> list:
     >>> two_sum([3, 3], 6)
     [0, 1]
     """
+    # answer key
     # create a dictionary to store the value and index of each element in nums
     # key: value of element in nums
     # value: index of element in nums
-    nums_dict = {}
+    seen = {}
 
     # loop through nums
-    for i in range(len(nums)):
-        # if the target - nums[i] is in nums_dict
-        if target - nums[i] in nums_dict:
+    for index, number in enumerate(nums):
+        # if the target - nums[i] is in seen
+        if target - number in seen.keys():
             # return the index of target - nums[i] and the index of nums[i]
-            return [nums_dict[target - nums[i]], i]
-        # if the target - nums[i] is not in nums_dict
+            return [seen[target - nums[index]], index]
+        # if the target - nums[i] is not in seen
         else:
-            # add nums[i] and its index to nums_dict
-            nums_dict[nums[i]] = i
-
+            # add nums[i] and its index to seen
+            seen[nums[index]] = index
     # if no two numbers in nums add up to target, return empty list
     return []
 
-    already_checked = {}
 
-    for index, number in enumerate(nums):
-        difference = target - number
-        if difference in already_checked:
-            return [already_checked[difference], index]
-        already_checked[number] = index
+def main():
+    print(two_sum([1, 2, 3], 5))
+
+
+if __name__ == '__main__':
+    main()
