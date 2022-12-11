@@ -49,3 +49,11 @@ def maximum_subarray(nums: list) -> int:
 
     # return the maximum sum
     return maximum_sum
+
+
+def main():
+    print(maximum_subarray([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
+
+
+if __name__ == '__main__':
+    main()
