@@ -1,5 +1,5 @@
 from unittest import TestCase
-from leetcode242_validanagram.anagram import anagram
+from leetcode_easy.leetcode242_validanagram.anagram import anagram
 
 
 class AnagramTest(TestCase):
