@@ -12,8 +12,8 @@ def maximum_subarray(nums: list) -> int:
     """
     Given an integer array nums, find the subarray which has the largest sum and return its sum.
 
-    :param nums: list of integers
-    :precondition: nums is a list of integers
+    :param nums: a non-empty list of integers
+    :precondition: nums must be a non-empty list of integers
     :postcondition: return the subarray which has the largest sum and return its sum
     :return: integer
 
