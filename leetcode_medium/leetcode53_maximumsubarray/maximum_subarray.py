@@ -14,8 +14,9 @@ def maximum_subarray(nums: list) -> int:
 
     :param nums: a non-empty list of integers
     :precondition: nums must be a non-empty list of integers
-    :postcondition: return the subarray which has the largest sum and return its sum
-    :return: integer
+    :precondition: sum of the largest sum cannot be less than 0
+    :postcondition: return the sum of the largest the subarray
+    :return: the sum of the largest the subarray
 
     >>> maximum_subarray([-2, 1, -3, 4, -1, 2, 1, -5, 4])
     6
