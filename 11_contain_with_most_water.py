@@ -9,7 +9,6 @@ class Solution:
         left, right = 0, len(height) - 1
         max_area = 0
 
-        lists_area = []
         while left < right:
             # area = min(height[left], height[right]) * (right - left)
             # lists_area.append(area)
